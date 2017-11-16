@@ -49,11 +49,13 @@ public class MyPanelClass extends JPanel {
 //                        p.addPoint(x1 + 15, y1 + 25);
 //                        g.setColor(Color.YELLOW);
 //                        g.fillPolygon(p);
+                        
                         //Draw Stripes
                         g.setColor(Color.WHITE);
                         g.fillRect(x1, y1+36, width, 36);
                         g.setColor(Color.WHITE);
                         g.fillRect(x1, y1+108, width, 36);
+                        
                         //Draw blue triangle
                         Polygon p3 = new Polygon();
                         p3.addPoint(x1, y1);
@@ -61,6 +63,7 @@ public class MyPanelClass extends JPanel {
                         p3.addPoint(x1, y1+180);
                         g.setColor(Color.BLUE);
                         g.fillPolygon(p3);
+                        
                         //Draw Star
                         Polygon p2 = new Polygon();
                         p2.addPoint(x1 + 30, y1 + 78);
